@@ -18,6 +18,16 @@ IPA ゴシックのグリフを含まないため、使用可能な漢字グリ�
 
 # バージョン
 
+## Version 3.2.5-Nerd-Fonts (7 May 2017)
+* [Ricty 生成スクリプト Version 4.1.1b](http://www.rs.tus.ac.jp/yyusa/ricty/ricty_generator.sh)
+* [斜体生成スクリプト](http://www.rs.tus.ac.jp/yyusa/ricty/regular2oblique_converter.pe)
+* [生成されたフォントの文字間隔が不自然に大きくなったときにフォントを修正するスクリプト](http://www.rs.tus.ac.jp/yyusa/ricty/os2version_reviser.sh)
+* Inconsolata Version 2.001
+* Circle M+ 1m Version 1.060
+* ryanoasis/nerd-fonts 1.0.0
+* ryanoasis/nerd-fonts をfontforge-20170104で以下のように実行し，nerd-fonts バージョンを作成
+`fontforge -script font-patcher -c -w Ricty*.ttf`
+
 ## Version 3.2.4-Nerd-Fonts (3 May 2017)
 
 * [Ricty 生成スクリプト Version 4.1.1b](http://www.rs.tus.ac.jp/yyusa/ricty/ricty_generator.sh)
