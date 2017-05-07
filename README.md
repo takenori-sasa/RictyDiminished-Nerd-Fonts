@@ -25,7 +25,7 @@ IPA ゴシックのグリフを含まないため、使用可能な漢字グリ�
 * Circle M+ 1m Version 1.060
 * [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)を submoduleとして追加
 * ryanoasis/nerd-fonts をfontforge-20170104で以下のように実行し，nerd-fonts バージョンを作成
-`./fontforge -script font-patcher -c Ricty*.ttf`
+`fontforge -script font-patcher -c Ricty*.ttf`
 
 ## Version 3.2.3 (4 May 2014)
 
