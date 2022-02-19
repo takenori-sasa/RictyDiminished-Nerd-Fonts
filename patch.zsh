@@ -1,6 +1,6 @@
 # !/bin/zsh
 brew install rg ghq fontforge
-ghq get --shallow git@github.com:ryanoasis/nerd-fonts.git
+ghq get --update --shallow git@github.com:ryanoasis/nerd-fonts.git
 fonts=$(rg --files --max-depth 1 --hidden --follow --glob "*.ttf")
 if [[ -n "$fonts" ]]; then
     echo $fonts | while read font; do
